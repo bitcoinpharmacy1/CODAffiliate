@@ -1,0 +1,296 @@
+/*---------------------------------
+        Footer CSS 
+-----------------------------------*/
+.footer-wrap {
+  position: relative;
+  background-color: #024E32;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.footer-wrap .footer-shape-one,
+.footer-wrap .footer-shape-two,
+.footer-wrap .footer-shape-three,
+.footer-wrap .footer-shape-four,
+.footer-wrap .footer-shape-five {
+  position: absolute;
+  z-index: -1;
+}
+
+.footer-wrap .footer-shape-one {
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.footer-wrap .footer-shape-two {
+  bottom: 0;
+  right: 0;
+}
+
+.footer-wrap .footer-shape-three {
+  bottom: 0;
+  left: 30%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.footer-wrap .footer-shape-four {
+  top: 65%;
+  left: 70%;
+}
+
+.footer-wrap .footer-shape-five {
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.footer-wrap.style2 {
+  padding-top: 80px;
+  position: relative;
+}
+
+.footer-wrap .footer-widget {
+  margin-bottom: 25px;
+}
+
+.footer-wrap .footer-widget .footer-widget-title {
+  position: relative;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-wrap .footer-widget .footer-widget-title:before {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  content: "";
+  width: 90px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-wrap .footer-widget .footer-widget-title:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 35px;
+  height: 2px;
+  background-color: #DCBE4A;
+}
+
+.footer-wrap .footer-widget .footer-logo {
+  display: block;
+}
+
+.footer-wrap .footer-widget .comp-desc {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 26px 0 25px;
+  padding-right: 10px;
+}
+
+.footer-wrap .footer-widget .social-profile li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-wrap .footer-widget .social-profile li a:hover {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.footer-wrap .footer-widget .footer-menu li {
+  margin-bottom: 15px;
+}
+
+.footer-wrap .footer-widget .footer-menu li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-wrap .footer-widget .footer-menu li a {
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  padding-left: 18px;
+}
+
+.footer-wrap .footer-widget .footer-menu li a:after {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer-wrap .footer-widget .footer-menu li a:hover {
+  color: #DCBE4A;
+  padding-left: 22px;
+}
+
+.footer-wrap .footer-widget .footer-menu li a:hover:after {
+  background-color: #DCBE4A;
+}
+
+.footer-wrap .footer-widget .contact-info li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+
+.footer-wrap .footer-widget .contact-info li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-wrap .footer-widget .contact-info li h6 {
+  color: #fff;
+  font-weight: 500;
+  margin: 0 0 5px;
+}
+
+.footer-wrap .footer-widget .contact-info li i {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer-wrap .footer-widget .contact-info li p, .footer-wrap .footer-widget .contact-info li a {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer-wrap .footer-widget .contact-info li:hover i {
+  color: #DCBE4A;
+}
+
+.footer-wrap .footer-widget .contact-info li:hover p, .footer-wrap .footer-widget .contact-info li:hover a {
+  color: #DCBE4A;
+}
+
+.copyright-text {
+  padding: 18px 10px;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.copyright-text i {
+  position: relative;
+  top: 2px;
+  margin-right: 2px;
+}
+
+.copyright-text a {
+  color: #DCBE4A;
+  font-weight: 500;
+}
+
+.copyright-text a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-wrap.style2 {
+    padding-top: 30px;
+    top: -10px;
+  }
+  .footer-wrap .footer-shape-five {
+    height: 30px;
+  }
+  .footer-wrap .footer-widget .footer-widget-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  .footer-wrap .footer-widget .comp-desc {
+    font-size: 14px;
+    padding-right: 10px;
+    margin: 20px 0;
+  }
+  .footer-wrap .footer-widget h6 {
+    font-size: 16px;
+  }
+  .footer-wrap .footer-widget .contact-info li {
+    margin-bottom: 10px;
+  }
+  .footer-wrap .footer-widget .contact-info li i {
+    top: 3px;
+    font-size: 14px;
+  }
+  .footer-wrap .footer-widget .contact-info p, .footer-wrap .footer-widget .contact-info a {
+    font-size: 14px;
+  }
+  .footer-wrap .footer-widget .footer-menu li {
+    margin-bottom: 8px;
+  }
+  .footer-wrap .footer-widget .footer-menu li a {
+    font-size: 14px;
+  }
+  .footer-wrap .footer-widget .footer-menu li a:after {
+    top: 7px;
+    width: 6px;
+    height: 6px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-wrap.style2 {
+    padding-top: 45px;
+    top: -10px;
+  }
+  .footer-wrap .footer-shape-five {
+    height: 45px;
+  }
+  .footer-wrap .footer-widget .footer-widget-title {
+    font-size: 22px;
+  }
+  .footer-wrap .footer-widget .comp-desc {
+    padding-right: 42px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer-wrap .footer-widget .comp-desc {
+    padding-right: 20px;
+  }
+  .footer-wrap.style2 {
+    top: -9px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .footer-wrap .footer-top .footer-widget .footer-widget-title {
+    margin-bottom: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .footer-wrap .footer-widget .comp-desc {
+    padding-right: 35px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .footer-wrap .footer-widget .comp-desc {
+    padding-right: 40px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
